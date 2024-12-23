@@ -9,12 +9,6 @@ const Results = () => {
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    navigate("/");
-  }, []);
-
   useEffect(() => {
     const params = { query };
 

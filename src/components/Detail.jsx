@@ -18,11 +18,6 @@ const Detail = () => {
   const [descValue, setdescValue] = useState(false);
   const [otherBtnActive, setOtherBtnActive] = useState(false);
 
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    navigate("/");
-  }, []);
   useEffect(() => {
     const params = {
       id,
