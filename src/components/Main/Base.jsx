@@ -7,6 +7,7 @@ import { HiDotsVertical } from "react-icons/hi";
 import api from "../../api";
 import Card from "../Card";
 import { useGeneralContext } from "../../context/GeneralContext";
+import banner from "../../../public/entertaiment/monster.png";
 const Base = () => {
   const navigate = useNavigate();
 
@@ -148,7 +149,7 @@ const Base = () => {
 
           <div className="adverts-content">
             <a href="">
-              <img src="../../../public/entertaiment/monster.png" alt="" />
+              <img src={banner} alt="" />
             </a>
             <div className="adverts-info">
               <img src="../../../public/channels4_profile.jpg" alt="" />
