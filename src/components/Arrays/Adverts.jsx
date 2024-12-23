@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../../public/channels4_profile.jpg";
-import banner from "../../../public/entertaiment/monster.PNG";
+import banner from "../../../public/entertaiment/monster.png";
 const Adverts = [
   {
     url: "d4XXpcytQp0?si=FimpqjIB1dwp5h7j",
