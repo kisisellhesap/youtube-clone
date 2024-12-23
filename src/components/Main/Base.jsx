@@ -22,7 +22,6 @@ const Base = () => {
   const [videos, setVideos] = useState([]);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
-  const index = Math.floor(Math.random() * Adverts.length);
   const navRef = useRef(null);
 
   const scrollRightBtn = () => {
@@ -139,7 +138,7 @@ const Base = () => {
             <iframe
               width="424"
               height="239"
-              src={`https://www.youtube.com/embed/${Adverts[index].url}&amp;controls=0`}
+              src={`https://www.youtube.com/embed/d4XXpcytQp0?si=FimpqjIB1dwp5h7j&amp;controls=0`}
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -150,20 +149,20 @@ const Base = () => {
 
           <div className="adverts-content">
             <a href="">
-              <img src={Adverts[index].banner} alt="" />
+              <img src="../../../public/entertaiment/monster.png" alt="" />
             </a>
             <div className="adverts-info">
-              <img src={Adverts[index].logo} alt="" />
+              <img src="../../../public/channels4_profile.jpg" alt="" />
               <div className="adverts-more-info">
                 <div className="more-info-header">
-                  <h4> {Adverts[index].title}</h4>
+                  <h4>Eti Burçak Sütlü Çikolatalı</h4>
                   <HiDotsVertical className="dot-vertical" />
                 </div>
                 <p className="sponsor-content">
                   <span>Sponsorlu ·</span>
-                  {Adverts[index].sponsor}
+                  Eti
                 </p>
-                <button>{Adverts[index].btnTitle}</button>
+                <button>Keşfet</button>
               </div>
             </div>
           </div>
