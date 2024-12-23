@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import banner from "../../../public/entertaiment/monster.jpg";
 import logo from "../../../public/channels4_profile.jpg";
 import Filters from "../Arrays/Filters";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { MdNavigateNext } from "react-icons/md";
 import { MdNavigateBefore } from "react-icons/md";
 import { HiDotsVertical } from "react-icons/hi";

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import api from "../api";
 import Card from "./Card";
 const Results = () => {
@@ -8,6 +8,12 @@ const Results = () => {
 
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    navigate("/");
+  }, []);
 
   useEffect(() => {
     const params = { query };

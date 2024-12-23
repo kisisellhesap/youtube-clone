@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import api from "../api";
 import ReactPlayer from "react-player/lazy";
 import { BiLike } from "react-icons/bi";
@@ -18,6 +18,11 @@ const Detail = () => {
   const [descValue, setdescValue] = useState(false);
   const [otherBtnActive, setOtherBtnActive] = useState(false);
 
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    navigate("/");
+  }, []);
   useEffect(() => {
     const params = {
       id,
