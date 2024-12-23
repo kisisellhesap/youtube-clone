@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import banner from "../../../public/entertaiment/monster.jpg";
-
+import logo from "../../../public/channels4_profile.jpg";
 import Filters from "../Arrays/Filters";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { MdNavigateNext } from "react-icons/md";
@@ -153,7 +153,7 @@ const Base = () => {
               <img src={banner} alt="" />
             </a>
             <div className="adverts-info">
-              <img src="../../../public/channels4_profile.jpg" alt="" />
+              <img src={logo} alt="" />
               <div className="adverts-more-info">
                 <div className="more-info-header">
                   <h4>Eti Burçak Sütlü Çikolatalı</h4>
