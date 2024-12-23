@@ -151,7 +151,7 @@ const Base = () => {
               <img src={logo} alt="" />
               <div className="adverts-more-info">
                 <div className="more-info-header">
-                  <h4>Eti Burçak Sütlü Çikolatalı</h4>
+                  <h4>Pegasus Airlines</h4>
                   <HiDotsVertical className="dot-vertical" />
                 </div>
                 <p className="sponsor-content">
