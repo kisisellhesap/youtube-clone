@@ -26,9 +26,7 @@ const Results = () => {
   }, [query]);
   return (
     <div className="results">
-      <h2>
-        {query ? `${query} için sonuçlar` : "Aradığınız kelime bulunamadı"}
-      </h2>
+      <h2>{query && `${query} için sonuçlar`}</h2>
       <div className="results-list">
         {loading ? (
           <h2>Yükleniyor</h2>
