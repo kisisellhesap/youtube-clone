@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import banner from "../../../entertaiment/monster.png";
+import banner from "../../../public/entertaiment/monster.png";
 
 import Filters from "../Arrays/Filters";
 import { Link, NavLink, useNavigate } from "react-router-dom";
