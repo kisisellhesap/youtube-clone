@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import banner from "../../../public/entertaiment/monster.jpg";
 import logo from "../../../public/channels4_profile.jpg";
 import Filters from "../Arrays/Filters";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { MdNavigateNext } from "react-icons/md";
 import { MdNavigateBefore } from "react-icons/md";
 import { HiDotsVertical } from "react-icons/hi";
@@ -10,11 +10,6 @@ import api from "../../api";
 import Card from "../Card";
 import { useGeneralContext } from "../../context/GeneralContext";
 const Base = () => {
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    navigate("/");
-  }, []);
   const [scrollLeftValue, setScrollLeftValue] = useState(0);
   const [maxScrollLeft, setMaxScrollLeft] = useState(0);
   const [halfScrollValue, setHalfScrollValue] = useState(0);
