@@ -1,12 +1,12 @@
 import { CiStreamOn } from "react-icons/ci";
-import teacher from "/assets/subscribes/mehmetcanseyhan.jpg";
-import cifraclub from "../../../assets/subscribes/cifraclub.jpg";
-import c50 from "../../../assets/subscribes/cs50.jpg";
-import codecamp from "../../../assets/subscribes/freecodecamp.jpg";
-import hafif from "../../../assets/subscribes/hafifprograming.jpg";
-import lofi from "../../../assets/subscribes/lofihiphop.jpg";
-import tolga from "../../../assets/subscribes/tolgaözuygur.jpg";
-import user from "../../../assets/subscribes/user.png";
+import teacher from "../../../../public/subscribes/mehmetcanseyhan.jpg";
+import cifraclub from "../../../../public/subscribes/cifraclub.jpg";
+import c50 from "../../../../public/subscribes/cs50.jpg";
+import codecamp from "../../../../public/subscribes/freecodecamp.jpg";
+import hafif from "../../../../public/subscribes/hafifprograming.jpg";
+import lofi from "../../../../public/subscribes/lofihiphop.jpg";
+import tolga from "../../../../public/subscribes/tolgaözuygur.jpg";
+import user from "../../../../public/subscribes/user.png";
 const SubscribeBtns = [
   {
     icon: (
