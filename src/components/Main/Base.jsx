@@ -4,7 +4,6 @@ import { Link, NavLink, useNavigate } from "react-router-dom";
 import { MdNavigateNext } from "react-icons/md";
 import { MdNavigateBefore } from "react-icons/md";
 import { HiDotsVertical } from "react-icons/hi";
-import Adverts from "../Arrays/Adverts";
 import api from "../../api";
 import Card from "../Card";
 import { useGeneralContext } from "../../context/GeneralContext";
