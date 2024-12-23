@@ -1,4 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
+import banner from "../../../entertaiment/monster.png";
+
 import Filters from "../Arrays/Filters";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { MdNavigateNext } from "react-icons/md";
@@ -7,7 +9,6 @@ import { HiDotsVertical } from "react-icons/hi";
 import api from "../../api";
 import Card from "../Card";
 import { useGeneralContext } from "../../context/GeneralContext";
-import banner from "../../../public/entertaiment/monster.png";
 const Base = () => {
   const navigate = useNavigate();
 
