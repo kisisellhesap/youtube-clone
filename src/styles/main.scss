@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 56px);
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  main {
+    height: 100%;
+  }
+}
